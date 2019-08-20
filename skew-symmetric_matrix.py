@@ -10,13 +10,6 @@ Skew-symmetric Matrix
 
 
 def checkio(matrix):
-    # for i in range(len(matrix) // 2 + 1):
-        #tmp = matrix[len(matrix) - 1 - i]
-        #tmp = [x * -1 for x in tmp[::-1]]
-        # if matrix[i] != tmp:
-            # return False
-    # return True
-
     for i in range(len(matrix)):
         if matrix[i][i] != 0:
             return False
